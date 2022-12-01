@@ -12,7 +12,6 @@ const fileURLToPath = require('url');
 const port = 3000;
 const app = express();
 
-
   
 app.set('view engine', 'handlebars');
 app.set('views', './views');

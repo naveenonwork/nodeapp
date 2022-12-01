@@ -41,6 +41,8 @@ var helpers= {
   forcastTitle() { return '5 Day Forcast:'; }, 
   getDate(day) { dateFormat= new Date() ; return currdate=(dateFormat.getDate()+day)+"/"+dateFormat.getMonth()+ "/"+dateFormat.getFullYear() }
 };
+
+// Starting Poaint
 router.get('/', (req, res) => {
 
   storedCityData=store.get('citySearched') 
